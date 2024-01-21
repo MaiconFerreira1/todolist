@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+.my_app_todo{
+    background-color: rgb(216, 237, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.app_title {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: rgb(15, 73, 199);
+}
+
+.add_tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(15, 73, 199);
+    height: 80px;
+    width: 500px;
+    border: none;
+}
+
+.area_tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 73, 199);
+    height: 500px;
+    width: 500px;
+    border: 5px black;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 15px rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(27, 0, 150);
+}
+
+.input_tasks{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 37px;
+    width: 243px;
+    border: none;
+}
+
+.btn_tasks{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:  rgb(15, 73, 199);
+    height: 40px;
+    width: 100px;
+    border: none;
+}
+
+.box_tasks{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+   }
+
+.text_task{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 30px;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 1%;
+    padding-top: 2%;
+}
+
+.btn_delete{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:  rgb(199, 15, 15);
+    height: 25px;
+    width: 25px;
+    border: none;
+    margin-top: 5%;
+}
+
+.style_tasks{
+    background-color: rgb(255, 254, 170);
+}
